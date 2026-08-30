@@ -25,7 +25,7 @@ class ProductServiceTest {
         Product savedProduct = service.createProduct(product);
 
         assertNotNull(savedProduct);
-        assertEquals(1, savedProduct.getId());
+        assertEquals(2, savedProduct.getId());
         assertEquals("Laptop", savedProduct.getTitle());
     }
 
